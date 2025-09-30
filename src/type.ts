@@ -5,6 +5,14 @@ export type AttributesProp = {
         min: number;
         max: number;
     };
+    male_weight:{
+        min: number;
+        max: number;
+    }
+    female_weight:{
+        min: number;
+        max: number;
+    }
 }
 
 export type DogBreed = {

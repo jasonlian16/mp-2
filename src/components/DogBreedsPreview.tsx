@@ -61,8 +61,6 @@ export default function DogBreedsPreview({dogbreed}: {dogbreed: DogBreed}){
                 <p className="female_weight">Minimum Female Weight: {dogbreed.attributes.female_weight.min} lbs</p>
                 <p className="female_weight">Maximum Female Weight: {dogbreed.attributes.female_weight.max} lbs</p>
             </div>
-
-            
         </DogFactPreviewDiv>
     )
 }
